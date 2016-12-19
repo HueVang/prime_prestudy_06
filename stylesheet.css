@@ -1,0 +1,385 @@
+body {
+	background: url(http://www.pixeden.com/media/k2/galleries/165/001-subtle-light-pattern-background-texture-vol5.jpg);
+	position: absolute;
+	margin: 20px 300px 20px 300px;
+
+}
+
+
+#header h1{
+	transform-origin: left top;
+	transition: transform 3s;
+}
+
+.button {
+  padding:5px;
+  border: 2px solid #666;
+  border-radius: 10px;
+  background-color: #66ffff;
+  display: inline-block;
+  font-family: sans-serif;
+  margin-left: 204px;
+}
+
+h2:before {
+ content: "*";
+}
+
+
+#header h1:hover {
+	transform: rotate(360deg);
+}
+
+#header h4 {
+	margin-left: 175px;
+	transition: transform 1s;
+} 
+
+
+.change:hover {
+	transition: transform 3s;
+	transform: scale(1.5);
+}
+
+.move:hover {
+	transition: transform 1s;
+	transform: translate(40px, 0);
+}
+
+.grow:hover {
+	transition: transform 1s;
+	transform: scale(1.25) translateX(5%);
+}
+
+.tint:hover {
+	transition: color 0.5s ease;
+	color: #4d79ff;
+}
+
+#header h1 {
+	margin-bottom: 10px;
+	font-size: 80px;
+}
+
+
+#load-bar1A { 
+	transition: background-color 1s ease, transform 1s;
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #0099CC;
+
+
+}
+
+
+#load-bar1A:hover {
+	background-color: #00CC00;
+	/*transform: scale(1.5);*/
+	
+}
+
+
+#load-bar1A div {
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: transparent;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+
+#load-bar1A div h6 {
+	margin-top: -2px;
+	margin-left: 220px;
+}
+
+
+#load-bar2A {
+	transition: background-color 1s ease-in, transform 1s;
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #0099CC;
+}
+
+
+#load-bar2A:hover {
+	background-color: #FF6600;
+	/*transform: scale(1.5);*/
+}
+
+
+#load-bar2A div {
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: transparent;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+
+#load-bar2A div h6 {
+	margin-top: -2px;
+	margin-left: 220px;
+}
+
+
+#load-bar3A {
+	transition: background-color 1s ease-in-out, transform 1s;
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #0099CC;
+}
+
+
+#load-bar3A:hover {
+	background-color: #FF00FF;
+	/*transform: scale(1.5);*/
+}
+
+
+#load-bar3A div {
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: transparent;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+
+#load-bar3A div h6 {
+	margin-top: -2px;
+	margin-left: 220px;
+}
+
+
+#load-bar4A {
+	transition: background-color 1s ease-out, transform 1s;
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #0099CC;
+}
+
+
+#load-bar4A:hover{
+	background-color: #FFFF00;
+	/*transform: scale(1.5);*/
+}
+
+
+#load-bar4A div {
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: transparent;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+
+#load-bar4A div h6 {
+	margin-top: -2px;
+	margin-left: 220px;
+}
+
+
+#load-bar5A {
+	transition: background-color 1s ease, transform 1s;
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #0099CC;
+}
+
+
+#load-bar5A:hover {
+	background-color: #0000B8;
+	/*transform: scale(1.5);*/
+}
+
+
+#load-bar5A div {
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: transparent;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+
+#load-bar5A div h6 {
+	margin-top: -2px;
+	margin-left: 220px;
+}
+
+
+#load-bar6A {
+	transition: background-color 1s ease, transform 1s;
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #0099CC;
+}
+
+
+#load-bar6A:hover {
+	background-color: #E60000;
+	/*transform: scale(1.5);*/
+}
+
+
+#load-bar6A div {
+	height: 10px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: transparent;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+
+#load-bar6A div h6 {
+	margin-top: -2px;
+	margin-left: 220px;
+}
+
+
+.info p {
+	display: inline;
+	font-family: "Palatino Linotype", sans-serif;
+}
+
+
+.summary h2 {
+	margin-bottom: 0px;
+}
+
+
+.highlights h2 {
+	margin-bottom: 0px;
+}
+
+
+.job-experience h2 {
+	font-family: "Times New Roman";
+	margin-bottom: 0px;
+}
+
+
+.education h2 {
+	margin-bottom: 0px;
+}
+
+
+.summary p {
+	font-family: "Arial";
+}
+
+
+.highlights li {
+	font-family: "Arial";
+}
+
+
+.job-experience {
+	font-family: "Arial";
+}
+
+
+#date1 {
+	margin-left: 310px;
+	margin-top: -40px;
+}
+
+
+#jobarea1 {
+	margin-left: 430px;
+	margin-top: -40px;
+}
+
+
+#MITY1 {
+	margin-top: 40px;
+}
+
+
+#date2 {
+	margin-left: 390px;
+	margin-top: -40px;
+}
+
+
+#jobarea2 {
+	margin-left: 480px;
+	margin-top: -40px;
+}
+
+#Sears {
+	margin-top: 40px;
+}
+
+
+#date3 {
+	margin-left: 370px;
+	margin-top: -40px;
+}
+
+
+#jobarea3 {
+	margin-left: 480px;
+	margin-top: -40px;
+}
+
+
+#MITY2 {
+	margin-top: 40px;
+}
+
+
+#date4 {
+	margin-left: 380px;
+	margin-top: -40px;
+}
+
+
+#jobarea4 {
+	margin-left: 480px;
+	margin-top: -40px;
+}
+
+
+#hsyear {
+	margin-left: 500px;
+	margin-top: -40px;
+}
+
+
+#hsarea {
+	margin-left: 480px;
+	margin-top: -40px;
+}
+
+
+#footer p {
+	margin-left: 220px;
+	font-family: "Times New Roman";
+}
